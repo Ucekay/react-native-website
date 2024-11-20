@@ -8,6 +8,8 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
 
+import Translate from '@docusaurus/Translate';
+
 import Logo from '../Logo';
 
 import GridBackground from './GridBackground';
@@ -51,10 +53,10 @@ function Hero() {
         <h2 className={styles.subtitle}>Learn once, write anywhere.</h2>
         <div className={styles.buttonContainer}>
           <a href="/docs/environment-setup" className={styles.primaryButton}>
-            Get Started
+            <Translate>Get Started</Translate>
           </a>
           <a href="/docs/getting-started" className={styles.secondaryButton}>
-            Learn the Basics
+            <Translate>Learn the Basics</Translate>
           </a>
         </div>
       </div>

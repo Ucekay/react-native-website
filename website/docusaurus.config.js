@@ -63,7 +63,7 @@ module.exports = {
   },
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ja'],
   },
   onBrokenLinks: 'throw',
   presets: [
@@ -316,6 +316,10 @@ module.exports = {
           {
             to: '/blog',
             label: 'Blog',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
           {
